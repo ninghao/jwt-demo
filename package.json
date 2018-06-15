@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ninghao/jwt-demo/issues"
   },
-  "homepage": "https://github.com/ninghao/jwt-demo#readme"
+  "homepage": "https://github.com/ninghao/jwt-demo#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.3.0"
+  }
 }
