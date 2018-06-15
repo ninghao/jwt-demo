@@ -1,0 +1,20 @@
+{
+  "name": "jwt-demo",
+  "version": "1.0.0",
+  "description": "基于 Node.js 演示签发与验证 JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninghao/jwt-demo.git"
+  },
+  "keywords": [],
+  "author": "wanghao <wanghao@ninghao.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ninghao/jwt-demo/issues"
+  },
+  "homepage": "https://github.com/ninghao/jwt-demo#readme"
+}
