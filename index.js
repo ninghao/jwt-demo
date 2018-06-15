@@ -14,3 +14,12 @@ const token = jwt.sign(payload, secret, { expiresIn: '1day' })
 
 // 输出签发的 Token
 console.log(token)
+
+// 验证 Token
+jwt.verify(token, secret, (error, decoded) => {
+  if (error) {
+    console.log(error.message)
+    return
+  }
+  console.log(decoded)
+})
